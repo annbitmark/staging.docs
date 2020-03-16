@@ -1,13 +1,13 @@
 ---
 title: Account
 keywords: account, sdk
-last_updated: 
+last_updated:
 sidebar: mydoc_sidebar
 permalink: /bitmark-references/bitmark-sdk/account
 folder: bitmark-references/bitmark-sdk
 ---
 
-# Account
+##Account
 
 Within the Bitmark Property System, an account represents any entity capable of creating and owning property, whether individuals, institutions, or organizations.
 
@@ -120,7 +120,7 @@ seed := acct.Seed()
 
 ### Exporting a recovery phrase
 
-The recovery phrase, which consists of twelve [mnemonic words](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), is superior to the seed for human interaction. If you don't maintain custody of the seeds of your users, make sure you present the recovery phrase to them and teach them [how to store it in a secure place](https://help.trustwallet.com/hc/en-us/articles/360016509753-Best-Practices-for-Storing-Your-Recovery-Phrase). 
+The recovery phrase, which consists of twelve [mnemonic words](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), is superior to the seed for human interaction. If you don't maintain custody of the seeds of your users, make sure you present the recovery phrase to them and teach them [how to store it in a secure place](https://help.trustwallet.com/hc/en-us/articles/360016509753-Best-Practices-for-Storing-Your-Recovery-Phrase).
 
 Currently English and traditional Chinese phrases are supported.
 
