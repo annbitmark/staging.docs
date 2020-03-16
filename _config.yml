@@ -30,7 +30,7 @@ host: 127.0.0.1
 port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/staging.docs" # the subpath of your site, e.g. /blog
 url: "https://annbitmark.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
