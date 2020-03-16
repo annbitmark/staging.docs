@@ -1,0 +1,97 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  folders:
+
+  - title: Register & Control data
+    output: web, pdf
+    folderitems:
+
+    - title: Register data
+      url: /register-and-control-data/register-data
+      output: web
+
+    - title: Control access
+      url: /register-and-control-data/control-access
+      output: web
+
+    - title: Transfer rights
+      url: /register-and-control-data/transfer-rights
+      output: web
+
+    - title: Share rights
+      url: /register-and-control-data/share-rights
+      output: web
+
+    - title: Run a Node
+      url: /register-and-control-data/run-a-node
+      output: web
+
+
+  - title: Explore the Protocol Docs
+    output: web, pdf
+    folderitems:
+
+    - title: Blockchain Overview
+      url: /explore-the-protocol-docs/blockchain-overview
+      output: web
+
+    - title: Block Validation and Synchronization
+      url: /explore-the-protocol-docs/block-verification-and-synchronization
+      output: web
+
+    - title: Block Mining
+      url: /explore-the-protocol-docs/block-mining
+      output: web
+
+    - title: Payment Verification
+      url: /explore-the-protocol-docs/payment-verification
+      output: web
+    
+    - title: Storage Databases
+      url: /explore-the-protocol-docs/storage-databases
+      output: web
+    
+    - title: Blockchain Security
+      url: /explore-the-protocol-docs/blockchain-security
+      output: web
+    
+    - title: RPC Communication
+      url: /explore-the-protocol-docs/rpc-communication
+      output: web
+    
+    - title: Glossary
+      url: /explore-the-protocol-docs/glossary
+      output: web
+
+  - title: Read our Papers
+    output: web, pdf
+    folderitems:
+
+    - title: Bitmark versus Ethereum
+      url: /read-our-papers/bitmark-eth-comparison
+      output: web
+
+    - title: White Papers
+      url: /read-our-papers//white-papers
+      output: web
+
+  - title: Contribute to the Protocol
+    output: web
+    folderitems:
+
+    - title: Contribute to the Protocol
+      url: /contribute-to-the-protocol
+      output: web
+
+  - title: Browse our FAQ
+    output: web, pdf
+    folderitems:
+
+    - title: Bitmark Protocol FAQ
+      url: /browser-our-faq/bitmark-protocol-faq
+      output: web
+
+
+
