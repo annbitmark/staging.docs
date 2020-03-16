@@ -8,17 +8,17 @@
 <meta name="keywords" content=" mining">
 <title>Block Mining | Bitmark Documentation</title>
 
-<link rel="stylesheet" href="/css/syntax.css">
+<link rel="stylesheet" href="/staging.docs/css/syntax.css">
 
-<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
-<!--<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">-->
-<link rel="stylesheet" href="/css/modern-business.css">
+<link rel="stylesheet" type="text/css" href="/staging.docs/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="/staging.docs/css/bootstrap.min.css">-->
+<link rel="stylesheet" href="/staging.docs/css/modern-business.css">
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="/css/bootstrap.min.3.3.7.css" crossorigin="anonymous">
-<link rel="stylesheet" href="/css/customstyles.css">
-<link rel="stylesheet" href="/css/boxshadowproperties.css">
+<link rel="stylesheet" href="/staging.docs/css/bootstrap.min.3.3.7.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/staging.docs/css/customstyles.css">
+<link rel="stylesheet" href="/staging.docs/css/boxshadowproperties.css">
 <!-- most color styles are extracted out to here -->
-<link rel="stylesheet" href="/css/theme-blue.css">
+<link rel="stylesheet" href="/staging.docs/css/theme-blue.css">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -35,7 +35,7 @@
 
 <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
-<link rel="stylesheet" href="/css/uikit.min.css" />
+<link rel="stylesheet" href="/staging.docs/css/uikit.min.css" />
 <script src="/js/uikit.min.js"></script>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -45,7 +45,7 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link rel="alternate" type="application/rss+xml" title="staging.docs" href="https://annbitmark.github.io/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="staging.docs" href="https://annbitmark.github.io/staging.docs/feed.xml">
 
     <script>
         $(document).ready(function() {
@@ -457,7 +457,7 @@ f8a17bc25cb53e848e2d09811ade4b8a037f628443661b88611faf5d9a5a1f33
 
 <h2 id="difficulty">Difficulty</h2>
 
-<p>As described in the <a href="/bitmark-references/bitmark-node-software/bitmark-blockchain-overview#block-hashing-argon2-difficulty-proof-of-work-">Bitmark Blockchain Technical Overview</a>, difficulty is decided by blockchain consensus rules. A higher difficulty means that it is harder for a miner to find a valid hash; when a hash meets a difficulty, that means that the hash value is less than or equal to the difficulty level. Usually, the difficulty level is represented by a number.</p>
+<p>As described in the <a href="/staging.docs/bitmark-references/bitmark-node-software/bitmark-blockchain-overview#block-hashing-argon2-difficulty-proof-of-work-">Bitmark Blockchain Technical Overview</a>, difficulty is decided by blockchain consensus rules. A higher difficulty means that it is harder for a miner to find a valid hash; when a hash meets a difficulty, that means that the hash value is less than or equal to the difficulty level. Usually, the difficulty level is represented by a number.</p>
 
 <p>For example, when difficulty is 2, the hash of a block should contains at least 10 (8+2) leading zeros. A block hash of “012345678901234567890123456789012” would not meet this difficulty criteria because it only has one leading zero, but a block hash of “00000000001234567890123456789012” would because it contains 10 leading zeros.</p>
 

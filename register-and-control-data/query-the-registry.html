@@ -8,17 +8,17 @@
 <meta name="keywords" content=" query registry">
 <title>Query the Registry | Bitmark Documentation</title>
 
-<link rel="stylesheet" href="/css/syntax.css">
+<link rel="stylesheet" href="/staging.docs/css/syntax.css">
 
-<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
-<!--<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">-->
-<link rel="stylesheet" href="/css/modern-business.css">
+<link rel="stylesheet" type="text/css" href="/staging.docs/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="/staging.docs/css/bootstrap.min.css">-->
+<link rel="stylesheet" href="/staging.docs/css/modern-business.css">
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="/css/bootstrap.min.3.3.7.css" crossorigin="anonymous">
-<link rel="stylesheet" href="/css/customstyles.css">
-<link rel="stylesheet" href="/css/boxshadowproperties.css">
+<link rel="stylesheet" href="/staging.docs/css/bootstrap.min.3.3.7.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/staging.docs/css/customstyles.css">
+<link rel="stylesheet" href="/staging.docs/css/boxshadowproperties.css">
 <!-- most color styles are extracted out to here -->
-<link rel="stylesheet" href="/css/theme-blue.css">
+<link rel="stylesheet" href="/staging.docs/css/theme-blue.css">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -35,7 +35,7 @@
 
 <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
-<link rel="stylesheet" href="/css/uikit.min.css" />
+<link rel="stylesheet" href="/staging.docs/css/uikit.min.css" />
 <script src="/js/uikit.min.js"></script>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -45,7 +45,7 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link rel="alternate" type="application/rss+xml" title="staging.docs" href="https://annbitmark.github.io/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="staging.docs" href="https://annbitmark.github.io/staging.docs/feed.xml">
 
     <script>
         $(document).ready(function() {
@@ -464,7 +464,7 @@
 
 <h3 id="query-for-a-specific-asset">Query for a specific asset</h3>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#a5a5182e-d25a-4672-9e09-5adf739401a4'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#a3f55b75-8b79-4a26-b81a-eb2b9d9d1acf'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -476,7 +476,7 @@
 
 </ul>
 
-<ul id="a5a5182e-d25a-4672-9e09-5adf739401a4" class="uk-switcher uk-margin">
+<ul id="a3f55b75-8b79-4a26-b81a-eb2b9d9d1acf" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">response</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">Asset</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">assetId</span><span class="p">);</span>
@@ -523,7 +523,7 @@
 
 <p>Use the account number of the registrant as the query argument.</p>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#c0dc04f3-b9cd-4753-892b-37c0b7851fcc'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#4e590227-46e5-44e4-9031-1e909abc39d6'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -535,7 +535,7 @@
 
 </ul>
 
-<ul id="c0dc04f3-b9cd-4753-892b-37c0b7851fcc" class="uk-switcher uk-margin">
+<ul id="4e590227-46e5-44e4-9031-1e909abc39d6" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">assetQueryParams</span> <span class="o">=</span> <span class="nx">Asset</span><span class="p">.</span><span class="nx">newAssetQueryBuilder</span><span class="p">()</span>
@@ -657,7 +657,7 @@
 
 <h3 id="query-for-a-specific-transaction">Query for a specific transaction</h3>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#3e176616-63be-4f31-871d-7fc9ad68c9e0'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#8596debb-38a5-47d6-9ad5-bd3a435edfef'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -669,7 +669,7 @@
 
 </ul>
 
-<ul id="3e176616-63be-4f31-871d-7fc9ad68c9e0" class="uk-switcher uk-margin">
+<ul id="8596debb-38a5-47d6-9ad5-bd3a435edfef" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">txResponse</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">Transaction</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">txId</span><span class="p">);</span>
@@ -710,7 +710,7 @@
 
 <p>A list of transaction records to show the ownership changes of a bitmark. If a bitmark is issued by user A, and then transferred to user B and C, the return will include 3 transactions with user A, B and C as transaction owners respectively.</p>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#6b4f8069-c884-4032-bf10-804c2bc6213a'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#6bc13058-a801-4d5b-b8ed-d674626fc727'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -722,7 +722,7 @@
 
 </ul>
 
-<ul id="6b4f8069-c884-4032-bf10-804c2bc6213a" class="uk-switcher uk-margin">
+<ul id="6bc13058-a801-4d5b-b8ed-d674626fc727" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">transactionQueryParams</span> <span class="o">=</span> <span class="nx">Transaction</span><span class="p">.</span><span class="nx">newTransactionQueryBuilder</span><span class="p">()</span>
@@ -771,7 +771,7 @@
 
 <!-- TODO: what does this mean? -->
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#bd74e0d2-5e38-4f6f-b8c7-d6a76bea19b9'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#39497265-677a-49b4-bb9d-b5a42d1eaa69'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -783,7 +783,7 @@
 
 </ul>
 
-<ul id="bd74e0d2-5e38-4f6f-b8c7-d6a76bea19b9" class="uk-switcher uk-margin">
+<ul id="39497265-677a-49b4-bb9d-b5a42d1eaa69" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">transactionQueryParams</span> <span class="o">=</span> <span class="nx">Transaction</span><span class="p">.</span><span class="nx">newTransactionQueryBuilder</span><span class="p">()</span>
@@ -938,7 +938,7 @@
 
 <h3 id="query-for-a-specific-bitmark">Query for a specific bitmark</h3>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#97ea8357-98c5-41c5-b119-d564ec1ee6b0'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#53570a12-ac5e-429f-8f4b-02d08df2de1c'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -950,7 +950,7 @@
 
 </ul>
 
-<ul id="97ea8357-98c5-41c5-b119-d564ec1ee6b0" class="uk-switcher uk-margin">
+<ul id="53570a12-ac5e-429f-8f4b-02d08df2de1c" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">response</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">Bitmark</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">bitmarkId</span><span class="p">,</span> <span class="kc">false</span><span class="p">);</span> <span class="c1">// false: not include asset, true: include asset</span>
