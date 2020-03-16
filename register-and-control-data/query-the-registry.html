@@ -10,8 +10,8 @@
 
 <link rel="stylesheet" href="/staging.docs/css/syntax.css">
 
-<link rel="stylesheet" type="text/css" href="/staging.docs/css/font-awesome.min.css">
-<!--<link rel="stylesheet" type="text/css" href="/staging.docs/css/bootstrap.min.css">-->
+<link rel="stylesheet" type="text/staging.docs/css" href="/staging.docs/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/staging.docs/css" href="/staging.docs/css/bootstrap.min.css">-->
 <link rel="stylesheet" href="/staging.docs/css/modern-business.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="/staging.docs/css/bootstrap.min.3.3.7.css" crossorigin="anonymous">
@@ -23,20 +23,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="/js/jquery.navgoco.min.js"></script>
+<script src="/staging.docs/js/jquery.navgoco.min.js"></script>
 
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- Anchor.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
-<script src="/js/toc.js"></script>
-<script src="/js/customscripts.js"></script>
+<script src="/staging.docs/js/toc.js"></script>
+<script src="/staging.docs/js/customscripts.js"></script>
 
 <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
 <link rel="stylesheet" href="/staging.docs/css/uikit.min.css" />
-<script src="/js/uikit.min.js"></script>
+<script src="/staging.docs/js/uikit.min.js"></script>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,7 +45,7 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link rel="alternate" type="application/rss+xml" title="staging.docs" href="https://annbitmark.github.io/staging.docs/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="docs" href="/feed.xml">
 
     <script>
         $(document).ready(function() {
@@ -58,7 +58,7 @@
                 cookie: {
                     name: 'navgoco',
                     expires: false,
-                    path: '/staging.docs/'
+                    path: '/'
                 },
                 slide: {
                     duration: 250,
@@ -123,6 +123,16 @@
 
 
 
+                
+                
+                
+                <li><a href="https://registry.bitmark.com/" target="_blank" rel="noopener">Registry</a></li>
+                
+                
+                
+                <li><a href="https://new.bitmark.com/products/bitmark-protocol/faq" target="_blank" rel="noopener">FAQ</a></li>
+                
+                
                 
                 <!-- entries with drop-downs appear here -->
                 <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
@@ -454,7 +464,7 @@
 
 <h3 id="query-for-a-specific-asset">Query for a specific asset</h3>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#e3511646-04e7-415b-9d83-26b8683fccf0'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#741e4329-cc4a-4acf-b0e4-27cbd0e4ec9f'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -466,7 +476,7 @@
 
 </ul>
 
-<ul id="e3511646-04e7-415b-9d83-26b8683fccf0" class="uk-switcher uk-margin">
+<ul id="741e4329-cc4a-4acf-b0e4-27cbd0e4ec9f" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">response</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">Asset</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">assetId</span><span class="p">);</span>
@@ -513,7 +523,7 @@
 
 <p>Use the account number of the registrant as the query argument.</p>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#52a45fb6-d188-4e61-be54-61e16f0b8663'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#2a4d95a6-271d-4e9c-be37-c319e0db5856'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -525,7 +535,7 @@
 
 </ul>
 
-<ul id="52a45fb6-d188-4e61-be54-61e16f0b8663" class="uk-switcher uk-margin">
+<ul id="2a4d95a6-271d-4e9c-be37-c319e0db5856" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">assetQueryParams</span> <span class="o">=</span> <span class="nx">Asset</span><span class="p">.</span><span class="nx">newAssetQueryBuilder</span><span class="p">()</span>
@@ -647,7 +657,7 @@
 
 <h3 id="query-for-a-specific-transaction">Query for a specific transaction</h3>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#c46a7c5e-36e6-4d85-b7a1-c8037dfe6028'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#fb8292f8-b8ab-4449-a8e9-f358527788ef'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -659,7 +669,7 @@
 
 </ul>
 
-<ul id="c46a7c5e-36e6-4d85-b7a1-c8037dfe6028" class="uk-switcher uk-margin">
+<ul id="fb8292f8-b8ab-4449-a8e9-f358527788ef" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">txResponse</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">Transaction</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">txId</span><span class="p">);</span>
@@ -700,7 +710,7 @@
 
 <p>A list of transaction records to show the ownership changes of a bitmark. If a bitmark is issued by user A, and then transferred to user B and C, the return will include 3 transactions with user A, B and C as transaction owners respectively.</p>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#efaab081-3fcb-475c-a11f-920daf23f797'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#d40ca1b8-25ef-4963-b007-141dd2e8a2f3'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -712,7 +722,7 @@
 
 </ul>
 
-<ul id="efaab081-3fcb-475c-a11f-920daf23f797" class="uk-switcher uk-margin">
+<ul id="d40ca1b8-25ef-4963-b007-141dd2e8a2f3" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">transactionQueryParams</span> <span class="o">=</span> <span class="nx">Transaction</span><span class="p">.</span><span class="nx">newTransactionQueryBuilder</span><span class="p">()</span>
@@ -761,7 +771,7 @@
 
 <!-- TODO: what does this mean? -->
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#7daeea38-7410-4b69-8941-08cf944ff3a1'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#1b4067f2-c5ab-477f-9d1c-89f2b6419704'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -773,7 +783,7 @@
 
 </ul>
 
-<ul id="7daeea38-7410-4b69-8941-08cf944ff3a1" class="uk-switcher uk-margin">
+<ul id="1b4067f2-c5ab-477f-9d1c-89f2b6419704" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">transactionQueryParams</span> <span class="o">=</span> <span class="nx">Transaction</span><span class="p">.</span><span class="nx">newTransactionQueryBuilder</span><span class="p">()</span>
@@ -928,7 +938,7 @@
 
 <h3 id="query-for-a-specific-bitmark">Query for a specific bitmark</h3>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#9c3018c1-78b1-4599-a676-59b534fc59eb'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#a473e0fc-6e9e-4df4-a03f-bac5735b1303'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -940,7 +950,7 @@
 
 </ul>
 
-<ul id="9c3018c1-78b1-4599-a676-59b534fc59eb" class="uk-switcher uk-margin">
+<ul id="a473e0fc-6e9e-4df4-a03f-bac5735b1303" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">response</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">Bitmark</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">bitmarkId</span><span class="p">,</span> <span class="kc">false</span><span class="p">);</span> <span class="c1">// false: not include asset, true: include asset</span>

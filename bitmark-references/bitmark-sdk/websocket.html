@@ -10,8 +10,8 @@
 
 <link rel="stylesheet" href="/staging.docs/css/syntax.css">
 
-<link rel="stylesheet" type="text/css" href="/staging.docs/css/font-awesome.min.css">
-<!--<link rel="stylesheet" type="text/css" href="/staging.docs/css/bootstrap.min.css">-->
+<link rel="stylesheet" type="text/staging.docs/css" href="/staging.docs/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/staging.docs/css" href="/staging.docs/css/bootstrap.min.css">-->
 <link rel="stylesheet" href="/staging.docs/css/modern-business.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="/staging.docs/css/bootstrap.min.3.3.7.css" crossorigin="anonymous">
@@ -23,20 +23,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="/js/jquery.navgoco.min.js"></script>
+<script src="/staging.docs/js/jquery.navgoco.min.js"></script>
 
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- Anchor.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
-<script src="/js/toc.js"></script>
-<script src="/js/customscripts.js"></script>
+<script src="/staging.docs/js/toc.js"></script>
+<script src="/staging.docs/js/customscripts.js"></script>
 
 <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
 <link rel="stylesheet" href="/staging.docs/css/uikit.min.css" />
-<script src="/js/uikit.min.js"></script>
+<script src="/staging.docs/js/uikit.min.js"></script>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,7 +45,7 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link rel="alternate" type="application/rss+xml" title="staging.docs" href="https://annbitmark.github.io/staging.docs/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="docs" href="/feed.xml">
 
     <script>
         $(document).ready(function() {
@@ -58,7 +58,7 @@
                 cookie: {
                     name: 'navgoco',
                     expires: false,
-                    path: '/staging.docs/'
+                    path: '/'
                 },
                 slide: {
                     duration: 250,
@@ -123,6 +123,16 @@
 
 
 
+                
+                
+                
+                <li><a href="https://registry.bitmark.com/" target="_blank" rel="noopener">Registry</a></li>
+                
+                
+                
+                <li><a href="https://new.bitmark.com/products/bitmark-protocol/faq" target="_blank" rel="noopener">FAQ</a></li>
+                
+                
                 
                 <!-- entries with drop-downs appear here -->
                 <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
@@ -415,7 +425,7 @@ Bitmark SDK offers Web Socket event triggering so that the application can be no
 <p>Note: The attribute names could be different depending on the SDK used. This document refers specifically to the Java SDK.</p>
 
 <h3 id="connectdisconnect">Connect/Disconnect</h3>
-<ul class="uk-tab" data-uk-switcher="{connect:'#682cf45d-db1d-4da3-b66a-eba6f238bc1d'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#9241d1b6-ee3b-450e-9ae3-285813c98f19'}">
 
 	<li class="uk-active"><a href="#">Java</a></li>
 
@@ -423,7 +433,7 @@ Bitmark SDK offers Web Socket event triggering so that the application can be no
 
 </ul>
 
-<ul id="682cf45d-db1d-4da3-b66a-eba6f238bc1d" class="uk-switcher uk-margin">
+<ul id="9241d1b6-ee3b-450e-9ae3-285813c98f19" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">WebSocket</span><span class="o">.</span><span class="na">ConnectionEvent</span> <span class="n">connEvent</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">WebSocket</span><span class="o">.</span><span class="na">ConnectionEvent</span><span class="o">()</span> <span class="o">{</span>
@@ -460,7 +470,7 @@ Bitmark SDK offers Web Socket event triggering so that the application can be no
 </ul>
 
 <h3 id="subscribeunsubscribe">Subscribe/Unsubscribe</h3>
-<ul class="uk-tab" data-uk-switcher="{connect:'#7b1de2a2-87fc-4151-92a3-3b4778047776'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#d8021ddd-823b-4622-9b06-b973c49a3044'}">
 
 	<li class="uk-active"><a href="#">Java</a></li>
 
@@ -468,7 +478,7 @@ Bitmark SDK offers Web Socket event triggering so that the application can be no
 
 </ul>
 
-<ul id="7b1de2a2-87fc-4151-92a3-3b4778047776" class="uk-switcher uk-margin">
+<ul id="d8021ddd-823b-4622-9b06-b973c49a3044" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// subscribe</span>

@@ -10,8 +10,8 @@
 
 <link rel="stylesheet" href="/staging.docs/css/syntax.css">
 
-<link rel="stylesheet" type="text/css" href="/staging.docs/css/font-awesome.min.css">
-<!--<link rel="stylesheet" type="text/css" href="/staging.docs/css/bootstrap.min.css">-->
+<link rel="stylesheet" type="text/staging.docs/css" href="/staging.docs/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/staging.docs/css" href="/staging.docs/css/bootstrap.min.css">-->
 <link rel="stylesheet" href="/staging.docs/css/modern-business.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="/staging.docs/css/bootstrap.min.3.3.7.css" crossorigin="anonymous">
@@ -23,20 +23,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="/js/jquery.navgoco.min.js"></script>
+<script src="/staging.docs/js/jquery.navgoco.min.js"></script>
 
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- Anchor.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
-<script src="/js/toc.js"></script>
-<script src="/js/customscripts.js"></script>
+<script src="/staging.docs/js/toc.js"></script>
+<script src="/staging.docs/js/customscripts.js"></script>
 
 <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
 <link rel="stylesheet" href="/staging.docs/css/uikit.min.css" />
-<script src="/js/uikit.min.js"></script>
+<script src="/staging.docs/js/uikit.min.js"></script>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,7 +45,7 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link rel="alternate" type="application/rss+xml" title="staging.docs" href="https://annbitmark.github.io/staging.docs/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="docs" href="/feed.xml">
 
     <script>
         $(document).ready(function() {
@@ -58,7 +58,7 @@
                 cookie: {
                     name: 'navgoco',
                     expires: false,
-                    path: '/staging.docs/'
+                    path: '/'
                 },
                 slide: {
                     duration: 250,
@@ -123,6 +123,16 @@
 
 
 
+                
+                
+                
+                <li><a href="https://registry.bitmark.com/" target="_blank" rel="noopener">Registry</a></li>
+                
+                
+                
+                <li><a href="https://new.bitmark.com/products/bitmark-protocol/faq" target="_blank" rel="noopener">FAQ</a></li>
+                
+                
                 
                 <!-- entries with drop-downs appear here -->
                 <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
@@ -379,7 +389,7 @@
 <p>Bitmark SDK provides <code class="language-plaintext highlighter-rouge">rekey</code> method to allow users to transfer all bitmarks from an <code class="language-plaintext highlighter-rouge">Account</code> to another one. This is helpful in case users want to migrate all their own bitmarks from old <code class="language-plaintext highlighter-rouge">Account</code> to another new one and keep the bitmarks provenance as well.</p>
 
 <p>The method takes different <code class="language-plaintext highlighter-rouge">Account</code> as source and destination one and return the collection of new transaction id when complete.</p>
-<ul class="uk-tab" data-uk-switcher="{connect:'#34468713-da97-4d93-b18f-484dcee9b217'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#d05c9a56-7878-44a6-be60-0af39d2d8be9'}">
 
 	<li class="uk-active"><a href="#">Swift</a></li>
 
@@ -387,7 +397,7 @@
 
 </ul>
 
-<ul id="34468713-da97-4d93-b18f-484dcee9b217" class="uk-switcher uk-margin">
+<ul id="d05c9a56-7878-44a6-be60-0af39d2d8be9" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">source</span> <span class="o">=</span> <span class="k">try</span> <span class="kt">Account</span><span class="p">();</span>

@@ -10,8 +10,8 @@
 
 <link rel="stylesheet" href="/staging.docs/css/syntax.css">
 
-<link rel="stylesheet" type="text/css" href="/staging.docs/css/font-awesome.min.css">
-<!--<link rel="stylesheet" type="text/css" href="/staging.docs/css/bootstrap.min.css">-->
+<link rel="stylesheet" type="text/staging.docs/css" href="/staging.docs/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/staging.docs/css" href="/staging.docs/css/bootstrap.min.css">-->
 <link rel="stylesheet" href="/staging.docs/css/modern-business.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="/staging.docs/css/bootstrap.min.3.3.7.css" crossorigin="anonymous">
@@ -23,20 +23,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="/js/jquery.navgoco.min.js"></script>
+<script src="/staging.docs/js/jquery.navgoco.min.js"></script>
 
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- Anchor.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
-<script src="/js/toc.js"></script>
-<script src="/js/customscripts.js"></script>
+<script src="/staging.docs/js/toc.js"></script>
+<script src="/staging.docs/js/customscripts.js"></script>
 
 <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
 <link rel="stylesheet" href="/staging.docs/css/uikit.min.css" />
-<script src="/js/uikit.min.js"></script>
+<script src="/staging.docs/js/uikit.min.js"></script>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,7 +45,7 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link rel="alternate" type="application/rss+xml" title="staging.docs" href="https://annbitmark.github.io/staging.docs/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="docs" href="/feed.xml">
 
     <script>
         $(document).ready(function() {
@@ -58,7 +58,7 @@
                 cookie: {
                     name: 'navgoco',
                     expires: false,
-                    path: '/staging.docs/'
+                    path: '/'
                 },
                 slide: {
                     duration: 250,
@@ -123,6 +123,16 @@
 
 
 
+                
+                
+                
+                <li><a href="https://registry.bitmark.com/" target="_blank" rel="noopener">Registry</a></li>
+                
+                
+                
+                <li><a href="https://new.bitmark.com/products/bitmark-protocol/faq" target="_blank" rel="noopener">FAQ</a></li>
+                
+                
                 
                 <!-- entries with drop-downs appear here -->
                 <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
@@ -395,14 +405,14 @@
 
 <p><strong>Using the SDK</strong></p>
 <ul>
-  <li><a href="/staging.docs/register-and-control-data/getting-started#installing-sdk-packages">Install the SDK</a></li>
-  <li><a href="/staging.docs/register-and-control-data/getting-started#acquiring-an-api-token">Acquire an API token</a></li>
+  <li><a href="/register-and-control-data/getting-started#installing-sdk-packages">Install the SDK</a></li>
+  <li><a href="/register-and-control-data/getting-started#acquiring-an-api-token">Acquire an API token</a></li>
 </ul>
 
 <p><strong>Using the CLI</strong></p>
 <ul>
-  <li><a href="/staging.docs/register-and-control-data/run-a-node">Install the CLI along with the bitmarkd</a></li>
-  <li><a href="/staging.docs/register-and-control-data/cli/cli-payment#installing-and-configuring-the-bitmark-wallet">Install and configure the Bitmark Wallet</a></li>
+  <li><a href="/register-and-control-data/run-a-node">Install the CLI along with the bitmarkd</a></li>
+  <li><a href="/register-and-control-data/cli/cli-payment#installing-and-configuring-the-bitmark-wallet">Install and configure the Bitmark Wallet</a></li>
 </ul>
 
 <h2 id="issue-the-first-bitmark">Issue the first bitmark</h2>
@@ -419,7 +429,7 @@
 
 <h3 id="using-the-sdk">Using the SDK</h3>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#a29373d0-e49f-4aa1-bf4a-6d118cb11997'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#6a95578c-9dc5-4d1c-b29a-1aac650e935a'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -431,7 +441,7 @@
 
 </ul>
 
-<ul id="a29373d0-e49f-4aa1-bf4a-6d118cb11997" class="uk-switcher uk-margin">
+<ul id="6a95578c-9dc5-4d1c-b29a-1aac650e935a" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//Configure the SDK</span>
@@ -596,7 +606,7 @@
 
 <h3 id="using-the-cli">Using the CLI</h3>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#8cf8dbc7-0fdc-423d-aede-7e86d2a35bcb'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#90d6c28f-bf1f-42a9-8d74-0f396e78c2c0'}">
 
 	<li class="uk-active"><a href="#">Command</a></li>
 
@@ -606,7 +616,7 @@
 
 </ul>
 
-<ul id="8cf8dbc7-0fdc-423d-aede-7e86d2a35bcb" class="uk-switcher uk-margin">
+<ul id="90d6c28f-bf1f-42a9-8d74-0f396e78c2c0" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Create an identity</span>
@@ -684,7 +694,7 @@ bitmark-cli <span class="nt">-n</span> testing <span class="nt">-i</span> first 
 
 <h3 id="using-the-sdk-1">Using the SDK</h3>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#ee5ea6de-0483-4f96-bbf6-648671b3af5c'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#67f3b706-0c7a-40a2-8d61-40590537fed6'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -696,7 +706,7 @@ bitmark-cli <span class="nt">-n</span> testing <span class="nt">-i</span> first 
 
 </ul>
 
-<ul id="ee5ea6de-0483-4f96-bbf6-648671b3af5c" class="uk-switcher uk-margin">
+<ul id="67f3b706-0c7a-40a2-8d61-40590537fed6" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//import the issuer account</span>
@@ -765,7 +775,7 @@ bitmark-cli <span class="nt">-n</span> testing <span class="nt">-i</span> first 
 
 <h3 id="using-the-cli-1">Using the CLI</h3>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#8d04ba6e-6ded-4702-a491-924944595d5b'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#f0c6b34d-111b-4b16-86d4-0b1ee30c91fa'}">
 
 	<li class="uk-active"><a href="#">Command</a></li>
 
@@ -775,7 +785,7 @@ bitmark-cli <span class="nt">-n</span> testing <span class="nt">-i</span> first 
 
 </ul>
 
-<ul id="8d04ba6e-6ded-4702-a491-924944595d5b" class="uk-switcher uk-margin">
+<ul id="f0c6b34d-111b-4b16-86d4-0b1ee30c91fa" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Issue more bitmarks on an existing asset</span>
@@ -861,7 +871,7 @@ bitmark-cli <span class="nt">-n</span> testing <span class="nt">-i</span> first 
 
 </span><span class="err">//Payment</span><span class="w"> </span><span class="err">command's</span><span class="w"> </span><span class="err">output</span><span class="w">
 </span><span class="p">{</span><span class="w">
-  </span><span class="nl">"txId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"69a1a4810d0b703fb855397334bb3c04a0dc90e3c2c5cfa1d64b6c100f5ffe7d"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"txId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"69a1a4810d0b703fb855397334bb3c04a0dc90e3c2c5cfa1d64b6c100f5ffe7d"</span><span class="p">,</span><span class="w"> 
   </span><span class="nl">"rawTx"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0100000001c2de9f79c6d5c112b5b8c2979c7d9ec18a5712e995c6eaafc44a8a2ac3852c23010000006a473044022063e3135e76403d4d07ba24f9053ca59cd56c9140ff11c49796e7dd6f08b9912d0220637f83fb58754ad5c9be816af3af09fbadb47f60f70627b2b8e7732f6adf8e700121031202a8f1cb428470d172d93d71d12bf3be8aa54b30426b185a0938cd966bef94ffffffff03a0860100000000001976a914886fc94c1420d404103f32d1c812513857f6ecc988ac4042fc94000000001976a914ca0d5ec57c5eae9b5d362f59ef7ec7e1b2e8251d88ac0000000000000000326a3035b336aa5dbd78a6dd14f2dff528384bb7d0066125facf898b31a942e76d74626c083b3e3f5ba07a579924604dfd3a5600000000"</span><span class="w">
 </span><span class="p">}</span><span class="w">
 
@@ -896,21 +906,21 @@ bitmark-cli <span class="nt">-n</span> testing <span class="nt">-i</span> first 
 
 <p>CLI</p>
 <ul>
-  <li><a href="/staging.docs/register-and-control-data/cli/bitmark-cli-command-reference">CLI command reference</a></li>
-  <li><a href="/staging.docs/register-and-control-data/cli/cli-quick-setup">CLI quick setup</a></li>
+  <li><a href="/register-and-control-data/cli/bitmark-cli-command-reference">CLI command reference</a></li>
+  <li><a href="/register-and-control-data/cli/cli-quick-setup">CLI quick setup</a></li>
 </ul>
 
 <p><br /></p>
 
 <p>SDK</p>
 <ul>
-  <li><a href="/staging.docs/register-and-control-data/getting-started">SDK Getting Started</a></li>
-  <li><a href="/staging.docs/bitmark-references/bitmark-sdk/account">SDK Account</a></li>
-  <li><a href="/staging.docs/bitmark-references/bitmark-sdk/action">SDK Action</a></li>
-  <li><a href="/staging.docs/bitmark-references/bitmark-sdk/query">SDK Query</a></li>
-  <li><a href="/staging.docs/bitmark-references/bitmark-sdk/migration">SDK Migration</a></li>
-  <li><a href="/staging.docs/bitmark-references/bitmark-sdk/store-seed">SDK Store Seed</a></li>
-  <li><a href="/staging.docs/bitmark-references/bitmark-sdk/websocket">SDK Web Socket</a></li>
+  <li><a href="/register-and-control-data/getting-started">SDK Getting Started</a></li>
+  <li><a href="/bitmark-references/bitmark-sdk/account">SDK Account</a></li>
+  <li><a href="/bitmark-references/bitmark-sdk/action">SDK Action</a></li>
+  <li><a href="/bitmark-references/bitmark-sdk/query">SDK Query</a></li>
+  <li><a href="/bitmark-references/bitmark-sdk/migration">SDK Migration</a></li>
+  <li><a href="/bitmark-references/bitmark-sdk/store-seed">SDK Store Seed</a></li>
+  <li><a href="/bitmark-references/bitmark-sdk/websocket">SDK Web Socket</a></li>
 </ul>
 </div>
         

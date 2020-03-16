@@ -10,8 +10,8 @@
 
 <link rel="stylesheet" href="/staging.docs/css/syntax.css">
 
-<link rel="stylesheet" type="text/css" href="/staging.docs/css/font-awesome.min.css">
-<!--<link rel="stylesheet" type="text/css" href="/staging.docs/css/bootstrap.min.css">-->
+<link rel="stylesheet" type="text/staging.docs/css" href="/staging.docs/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/staging.docs/css" href="/staging.docs/css/bootstrap.min.css">-->
 <link rel="stylesheet" href="/staging.docs/css/modern-business.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="/staging.docs/css/bootstrap.min.3.3.7.css" crossorigin="anonymous">
@@ -23,20 +23,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="/js/jquery.navgoco.min.js"></script>
+<script src="/staging.docs/js/jquery.navgoco.min.js"></script>
 
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- Anchor.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
-<script src="/js/toc.js"></script>
-<script src="/js/customscripts.js"></script>
+<script src="/staging.docs/js/toc.js"></script>
+<script src="/staging.docs/js/customscripts.js"></script>
 
 <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
 <link rel="stylesheet" href="/staging.docs/css/uikit.min.css" />
-<script src="/js/uikit.min.js"></script>
+<script src="/staging.docs/js/uikit.min.js"></script>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,7 +45,7 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link rel="alternate" type="application/rss+xml" title="staging.docs" href="https://annbitmark.github.io/staging.docs/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="docs" href="/feed.xml">
 
     <script>
         $(document).ready(function() {
@@ -58,7 +58,7 @@
                 cookie: {
                     name: 'navgoco',
                     expires: false,
-                    path: '/staging.docs/'
+                    path: '/'
                 },
                 slide: {
                     duration: 250,
@@ -123,6 +123,16 @@
 
 
 
+                
+                
+                
+                <li><a href="https://registry.bitmark.com/" target="_blank" rel="noopener">Registry</a></li>
+                
+                
+                
+                <li><a href="https://new.bitmark.com/products/bitmark-protocol/faq" target="_blank" rel="noopener">FAQ</a></li>
+                
+                
                 
                 <!-- entries with drop-downs appear here -->
                 <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
@@ -374,7 +384,7 @@
     
 
     <div class="row">
-        <div class="col-md-9 page-article"><p>##Account</p>
+        <div class="col-md-9 page-article"><h1 id="account">Account</h1>
 
 <p>Within the Bitmark Property System, an account represents any entity capable of creating and owning property, whether individuals, institutions, or organizations.</p>
 
@@ -384,7 +394,7 @@
 
 <p>You must create a new identity to participate on the Bitmark blockchain.</p>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#9d88e5bf-3724-4a66-806b-769d37216aab'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#01c1d41d-4bca-42f9-ba5a-f5b84eba74ae'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -396,7 +406,7 @@
 
 </ul>
 
-<ul id="9d88e5bf-3724-4a66-806b-769d37216aab" class="uk-switcher uk-margin">
+<ul id="01c1d41d-4bca-42f9-ba5a-f5b84eba74ae" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">account</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">sdk</span><span class="p">.</span><span class="nx">Account</span><span class="p">();</span>
@@ -436,7 +446,7 @@
   <li>The <strong>receiver</strong> of a bitmark transfer offer</li>
 </ul>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#c957683c-86e5-4583-a1b6-9bc8cc65d14e'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#56b03383-ab35-4baa-bb4f-7f6b7361057e'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -448,7 +458,7 @@
 
 </ul>
 
-<ul id="c957683c-86e5-4583-a1b6-9bc8cc65d14e" class="uk-switcher uk-margin">
+<ul id="56b03383-ab35-4baa-bb4f-7f6b7361057e" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">accountNumber</span> <span class="o">=</span> <span class="nx">account</span><span class="p">.</span><span class="nx">getAccountNumber</span><span class="p">();</span>
@@ -483,9 +493,9 @@
 
 <h3 id="exporting-a-seed">Exporting a seed</h3>
 
-<p>The seed is the more compact format of an exported account. See <a href="/staging.docs/bitmark-references/bitmark-sdk/store-seed">Store seed</a> to learn how to securely store seeds in mobile phones.</p>
+<p>The seed is the more compact format of an exported account. See <a href="/bitmark-references/bitmark-sdk/store-seed">Store seed</a> to learn how to securely store seeds in mobile phones.</p>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#be829500-7fe1-4303-9f5c-4973ca58b164'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#0c2c1c76-92fe-451e-a6c4-acef2cad9c3f'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -497,7 +507,7 @@
 
 </ul>
 
-<ul id="be829500-7fe1-4303-9f5c-4973ca58b164" class="uk-switcher uk-margin">
+<ul id="0c2c1c76-92fe-451e-a6c4-acef2cad9c3f" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">seed</span> <span class="o">=</span> <span class="nx">account</span><span class="p">.</span><span class="nx">getSeed</span><span class="p">();</span>
@@ -532,7 +542,7 @@
 
 <p>Currently English and traditional Chinese phrases are supported.</p>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#e7151bd1-50b5-4f7d-a79d-b5af67cf3fbb'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#6d20dcd5-3a8b-453d-9aa0-ef798514ce61'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -544,7 +554,7 @@
 
 </ul>
 
-<ul id="e7151bd1-50b5-4f7d-a79d-b5af67cf3fbb" class="uk-switcher uk-margin">
+<ul id="6d20dcd5-3a8b-453d-9aa0-ef798514ce61" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// English version</span>
@@ -601,7 +611,7 @@
 
 <p>To instantiate an account from a given seed:</p>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#93b00cf7-c942-4683-b6b6-2172859426fa'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#e01dbeb3-f39c-4a23-bc1f-bd403a698cce'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -613,7 +623,7 @@
 
 </ul>
 
-<ul id="93b00cf7-c942-4683-b6b6-2172859426fa" class="uk-switcher uk-margin">
+<ul id="e01dbeb3-f39c-4a23-bc1f-bd403a698cce" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">account</span> <span class="o">=</span> <span class="nx">Account</span><span class="p">.</span><span class="nx">fromSeed</span><span class="p">(</span><span class="dl">"</span><span class="s2">9J87CAsHdFdoEu6N1unZk3sqhVBkVL8Z8</span><span class="dl">"</span><span class="p">);</span>
@@ -641,7 +651,7 @@
 
 <p>To instantiate an account from a given recovery phrase:</p>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#c7ff362c-d956-4544-9bec-1e558e16d21c'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#09f45dd1-7f43-45e8-b2f2-09e47783a6c1'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -653,7 +663,7 @@
 
 </ul>
 
-<ul id="c7ff362c-d956-4544-9bec-1e558e16d21c" class="uk-switcher uk-margin">
+<ul id="09f45dd1-7f43-45e8-b2f2-09e47783a6c1" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// English version</span>
@@ -709,7 +719,7 @@
 
 <p>An account can be used to sign an arbitrary message. Any party with the received message and the corresponding signature can then validate if the message was created by a known sender (authentication) and that the message was not altered in transit (integrity). This functionality is usually useful when you have a server application that needs to authenticate whether requests are from valid users.</p>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#5608b072-0ea6-4ab6-95b7-5edef3bedd9d'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#8c09e6dc-9995-4ffd-9196-f8061a5ac0b3'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -721,7 +731,7 @@
 
 </ul>
 
-<ul id="5608b072-0ea6-4ab6-95b7-5edef3bedd9d" class="uk-switcher uk-margin">
+<ul id="8c09e6dc-9995-4ffd-9196-f8061a5ac0b3" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">account</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Account</span><span class="p">();</span>
@@ -779,7 +789,7 @@
 <p>Validating a given account number verifies that it is valid in the current runtime environment (i.e.,
 the format is correct and its network matches the network specified in the SDK config during initialization). The SDK functions return an error if the validation fails.</p>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#12c5bf84-fe4d-4d7c-b0e8-b15afc274808'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#77e9c2d5-7ed1-4871-9bf4-21173a8a0b78'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -791,7 +801,7 @@ the format is correct and its network matches the network specified in the SDK c
 
 </ul>
 
-<ul id="12c5bf84-fe4d-4d7c-b0e8-b15afc274808" class="uk-switcher uk-margin">
+<ul id="77e9c2d5-7ed1-4871-9bf4-21173a8a0b78" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">isValid</span> <span class="o">=</span> <span class="nx">Account</span><span class="p">.</span><span class="nx">isValidAccountNumber</span><span class="p">(</span><span class="nx">accountNumber</span><span class="p">);</span>
