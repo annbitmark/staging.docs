@@ -58,7 +58,7 @@
                 cookie: {
                     name: 'navgoco',
                     expires: false,
-                    path: '/'
+                    path: '/staging.docs/'
                 },
                 slide: {
                     duration: 250,
@@ -186,7 +186,7 @@
           
           
           
-          <li><a title="Register data" href="/register-and-control-data/register-data"><b>Register data</b></a></li>
+          <li><a title="Register data" href="/staging.docs/register-and-control-data/register-data"><b>Register data</b></a></li>
           
           
           
@@ -456,7 +456,7 @@
 
 <h3 id="querying-for-a-specific-asset">Querying for a specific asset</h3>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#cfa4b76f-df65-486b-ae96-bd7837c2449a'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#318954fe-f468-40f9-a49e-fb73d56327e0'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -468,7 +468,7 @@
 
 </ul>
 
-<ul id="cfa4b76f-df65-486b-ae96-bd7837c2449a" class="uk-switcher uk-margin">
+<ul id="318954fe-f468-40f9-a49e-fb73d56327e0" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">response</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">Asset</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">assetId</span><span class="p">);</span>
@@ -515,7 +515,7 @@
 
 <p>To retrieve a set of all assets registered by a specific account, use the account number of the registrant as the query argument.</p>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#12830243-d3b0-4046-b675-1f9a6dbaa59b'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#76e20927-de9e-4942-9d15-0c5dbefdd9cb'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -527,7 +527,7 @@
 
 </ul>
 
-<ul id="12830243-d3b0-4046-b675-1f9a6dbaa59b" class="uk-switcher uk-margin">
+<ul id="76e20927-de9e-4942-9d15-0c5dbefdd9cb" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">assetQueryParams</span> <span class="o">=</span> <span class="nx">Asset</span><span class="p">.</span><span class="nx">newAssetQueryBuilder</span><span class="p">()</span>
@@ -649,7 +649,7 @@
 
 <h3 id="querying-for-a-specific-transaction">Querying for a specific transaction</h3>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#03a013dc-ebe6-47a3-a9c6-fa4c38ccac28'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#04a6e9c5-5c35-4b67-b92e-0cb155220e5e'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -661,7 +661,7 @@
 
 </ul>
 
-<ul id="03a013dc-ebe6-47a3-a9c6-fa4c38ccac28" class="uk-switcher uk-margin">
+<ul id="04a6e9c5-5c35-4b67-b92e-0cb155220e5e" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">txResponse</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">Transaction</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">txId</span><span class="p">);</span>
@@ -702,7 +702,7 @@
 
 <p>To retrieve the set of transactions that make up provenance of a bitmark, use a bitmark as an argument. This will produce a list of transaction records that show the ownership changes of a bitmark. If a bitmark is issued by user A, and then transferred to user B then to user C, the return will include three transactions with user A, B, and C as transaction owners respectively.</p>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#ae1c3c75-b0e4-4475-88a0-59cd53834cdc'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#0db50db3-36cb-4886-9fb9-ecde800e284a'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -714,7 +714,7 @@
 
 </ul>
 
-<ul id="ae1c3c75-b0e4-4475-88a0-59cd53834cdc" class="uk-switcher uk-margin">
+<ul id="0db50db3-36cb-4886-9fb9-ecde800e284a" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">transactionQueryParams</span> <span class="o">=</span> <span class="nx">Transaction</span><span class="p">.</span><span class="nx">newTransactionQueryBuilder</span><span class="p">()</span>
@@ -764,7 +764,7 @@
 <p>To retrieve the set of transactions initiated by the same account, use the account ID as an argument.
 <!-- TODO: what does this mean? --></p>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#64db8903-3564-449a-a207-3fc75545b33c'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#d4e1bb00-af2f-49b5-be86-b99e9a8e3b44'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -776,7 +776,7 @@
 
 </ul>
 
-<ul id="64db8903-3564-449a-a207-3fc75545b33c" class="uk-switcher uk-margin">
+<ul id="d4e1bb00-af2f-49b5-be86-b99e9a8e3b44" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">transactionQueryParams</span> <span class="o">=</span> <span class="nx">Transaction</span><span class="p">.</span><span class="nx">newTransactionQueryBuilder</span><span class="p">()</span>
@@ -931,7 +931,7 @@
 
 <h3 id="querying-for-a-specific-bitmark">Querying for a specific bitmark</h3>
 
-<ul class="uk-tab" data-uk-switcher="{connect:'#091d701f-e92a-4b42-a3f4-90dfd2e7cb5a'}">
+<ul class="uk-tab" data-uk-switcher="{connect:'#e73d3fcc-2313-4537-8dd4-b9151fa5a820'}">
 
 	<li class="uk-active"><a href="#">JS</a></li>
 
@@ -943,7 +943,7 @@
 
 </ul>
 
-<ul id="091d701f-e92a-4b42-a3f4-90dfd2e7cb5a" class="uk-switcher uk-margin">
+<ul id="e73d3fcc-2313-4537-8dd4-b9151fa5a820" class="uk-switcher uk-margin">
 
 	<li>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">response</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">Bitmark</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">bitmarkId</span><span class="p">,</span> <span class="kc">false</span><span class="p">);</span> <span class="c1">// false: not include asset, true: include asset</span>
